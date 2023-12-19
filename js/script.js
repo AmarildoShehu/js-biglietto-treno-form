@@ -24,11 +24,15 @@ if (isNaN(km) || isNaN(eta) || km <= 0 || eta <= 0) {
 }
 
 // Calcolo prezzo con lo sconto
-const prezzoBase = km * 0.21;
+const scontoVenti = 0.8;
+const scontoQuaranta = 0.6;
+const prezzoAKm = 0.21;
+
+const prezzoBase = km * prezzoAKm;
     if (eta < 18) {
-        prezzoBase *= 0.8;
+        prezzoBase * scontoVenti;
     } else if (eta >= 65) {
-        prezzoBase *= 0.6;
+        prezzoBase * scontoQuaranta;
     }
 
     const prezzoFinale = prezzoBase.toFixed(2);
@@ -36,3 +40,4 @@ const prezzoBase = km * 0.21;
     const risultato = `Ciao ${nome} ${cognome}, il prezzo del viaggio è di € ${prezzoFinale}`;
     document.getElementById('risultato').innerText = risultato;
 });
+
