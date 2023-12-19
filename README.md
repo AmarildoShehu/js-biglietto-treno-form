@@ -32,3 +32,12 @@ Se non vi sentite particolarmente creativi, vi forniamo uno screenshot da seguir
 - Stampare sul biglietto un numero di carrozza e un numero di biglietto casuali
 
 Buon divertimento!
+
+### - scaletta - :
+1. collego il file js.
+2. chiedo nome utente.
+3. Chiedo quanti km vuole percorrere
+e quanti anni ha.
+4. Calcolo il prezzo del biglietto per km percorsi.
+5. Applico sconto sull'età.
+6. mostro prezzo finale in pagina.
