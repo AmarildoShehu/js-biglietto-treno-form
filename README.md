@@ -35,9 +35,12 @@ Buon divertimento!
 
 ### - scaletta - :
 1. collego il file js.
-2. chiedo nome utente.
+2. chiedo nome e cognome utente.
 3. Chiedo quanti km vuole percorrere
 e quanti anni ha.
+4. controllo se l'utente ha inserito i dati correttamente
+ 
 4. Calcolo il prezzo del biglietto per km percorsi.
+chiedo un controllo di tutti gli elementi prima del click sul bottone
 5. Applico sconto sull'età.
 6. mostro prezzo finale in pagina.
