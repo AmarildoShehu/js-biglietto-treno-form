@@ -39,8 +39,8 @@ Buon divertimento!
 3. Chiedo quanti km vuole percorrere
 e quanti anni ha.
 4. controllo se l'utente ha inserito i dati correttamente
- 
-4. Calcolo il prezzo del biglietto per km percorsi.
-chiedo un controllo di tutti gli elementi prima del click sul bottone
+5. Calcolo il prezzo del biglietto per km percorsi.
+
+6. chiedo un controllo di tutti gli elementi prima del click sul bottone.
 5. Applico sconto sull'età.
 6. mostro prezzo finale in pagina.
