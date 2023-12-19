@@ -28,11 +28,11 @@ const scontoVenti = 0.8;
 const scontoQuaranta = 0.6;
 const prezzoAKm = 0.21;
 
-const prezzoBase = km * prezzoAKm;
+let prezzoBase = km * prezzoAKm;
     if (eta < 18) {
-        prezzoBase * scontoVenti;
+        prezzoBase *= scontoVenti;
     } else if (eta >= 65) {
-        prezzoBase * scontoQuaranta;
+        prezzoBase *= scontoQuaranta;
     }
 
     const prezzoFinale = prezzoBase.toFixed(2);
